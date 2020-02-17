@@ -1,0 +1,24 @@
+.tab-list {
+    width: 20%;
+    height: 100%;   
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #bbb;
+}
+
+.tab-list-item {
+    display: block;
+    list-style: none;
+}
+
+.tab-list-active {
+    background-color: white;
+}
+
+.tab-content {
+    margin-left: 20%;
+}
+
+  
+  

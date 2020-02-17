@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import TabManager from './components/TabManager';
+
+class App extends React.Component{
+  render() {
+    return (
+      <div className="App">
+        <TabManager>
+          <div label="Home">
+            <h1> Hi, I'm Samuel </h1>
+          </div>
+          <div label="About">
+            <h1> About Me</h1>
+          </div>
+          <div label="Skills">
+            <h1> All My Skills </h1>
+          </div>
+          <div label="Contact">
+            <h1> Where To Find Me </h1>
+          </div>
+        </TabManager>
+      </div>
+    )
+  }
 }
 
 export default App;
