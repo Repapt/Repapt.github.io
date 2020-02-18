@@ -14,6 +14,8 @@ class App extends React.Component{
           </div>
           <div label="About">
             <h1> About Me</h1>
+            <p>Currently studying computer engineering at the University of Waterloo</p>
+            <p>Big Marvel fan.</p>
           </div>
           <div label="Skills">
             <h1> All My Skills </h1>
