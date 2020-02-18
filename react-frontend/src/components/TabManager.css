@@ -1,23 +1,52 @@
+.tab-manager {
+    height: 100%;
+}
+
 .tab-list {
-    width: 20%;
+    width: 5%;
     height: 100%;   
-    position: fixed;
     margin: 0;
     padding: 0;
-    background-color: #bbb;
+    background-color: #333;
+    position: fixed;
 }
 
 .tab-list-item {
     display: block;
     list-style: none;
+    color: #ddd;
+    padding: 2rem 0rem;
+}
+
+.tab-list-item:hover {
+    cursor: pointer;
+    color: #49a0be;
+    animation: glow 1s ease-in-out 0s infinite alternate;
+    transition: 0.5s;
 }
 
 .tab-list-active {
-    background-color: white;
+    color: #49a0be;
+    animation: glow 1s ease-in-out 0s infinite alternate;
 }
 
 .tab-content {
-    margin-left: 20%;
+    padding: 1rem;
+    margin-left: 5%;
+    background-color: #555;
+    color: #ddd;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #49a0be, 0 0 15px #fff;
+      }
+    to {
+        text-shadow: 0 0 5px #6bc3e0, 0 0 10px #83d6f1, 0 0 20px #fff;
+    }
 }
 
   

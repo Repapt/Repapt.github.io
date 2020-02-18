@@ -2,6 +2,8 @@ import React from 'react';
 
 import TabManager from './components/TabManager';
 
+import './App.css'
+
 class App extends React.Component{
   render() {
     return (
