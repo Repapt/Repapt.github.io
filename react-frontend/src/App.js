@@ -1,30 +1,33 @@
 import React from 'react';
+import { BrowserRouter, NavLink, Route } from 'react-router-dom';
 
-import TabManager from './components/TabManager';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Skills from './pages/skills/Skills';
+import Contact from './pages/contact/Contact';
 
-import './App.css'
+import './css/App.css'
+import './css/Page.css'
 
 class App extends React.Component{
   render() {
     return (
-      <div className="App">
-        <TabManager>
-          <div label="Home">
-            <h1> Hi, I'm Samuel </h1>
+      <BrowserRouter>
+        <div className="app">
+          <div className="nav-bar">
+            <NavLink exact className="nav-bar-item" to="/">Home</NavLink>
+            <NavLink className="nav-bar-item" to="/about">About</NavLink>
+            <NavLink className="nav-bar-item" to="/skills">Skills</NavLink>
+            <NavLink className="nav-bar-item" to="/contact">Contact</NavLink>
           </div>
-          <div label="About">
-            <h1> About Me</h1>
-            <p>Currently studying computer engineering at the University of Waterloo</p>
-            <p>Big Marvel fan.</p>
+          <div className="content">
+            <Route exact path="/" component={ Home }/>
+            <Route path="/about" component={ About }/>
+            <Route path="/skills" component={ Skills }/>
+            <Route path="/contact" component={ Contact }/>
           </div>
-          <div label="Skills">
-            <h1> All My Skills </h1>
-          </div>
-          <div label="Contact">
-            <h1> Where To Find Me </h1>
-          </div>
-        </TabManager>
-      </div>
+        </div>  
+      </BrowserRouter>
     )
   }
 }
