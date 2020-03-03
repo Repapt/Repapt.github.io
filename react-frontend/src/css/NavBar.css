@@ -1,5 +1,5 @@
 .nav-bar {
-  width: 5%;
+  width: 5vw;
   height: 100%;   
   margin: 0;
   padding: 0;
@@ -29,5 +29,22 @@
 }
 
 .nav-bar-icon {
-  height: 1vw;
+  margin: 0 0 0 0.5vw;
+  padding: 1vw 0;
+}
+
+.nav-bar-title {
+  position: absolute;
+  transform: translate(0, 0.5vw);
+  font-size: 2.5vw;
+  padding: 0.5vw;
+  background-color: #121212;
+}
+
+@keyframes glow {
+  from {
+      text-shadow: 0 0 5px #49a0be, 0 0 15px #fff;
+  } to {
+      text-shadow: 0 0 5px #6bc3e0, 0 0 10px #83d6f1, 0 0 20px #fff;
+  }
 }

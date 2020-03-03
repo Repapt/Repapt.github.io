@@ -26,22 +26,28 @@ class NavBarItem extends React.Component {
 
     return (
       <div>
-        {this.state.isHovered ? (
-          <div className="nav-bar-title" onMouseEnter={ this.toggleHover } onMouseLeave={ this.toggleHover }>
-            { this.props.page }
-          </div>
-        ) : (
-          <div className="nav-bar-icon" onMouseEnter={ this.toggleHover } onMouseLeave={ this.toggleHover }>
-            { 
-              {
-                'Home': <HomeIcon/>,
-                'About': <AboutIcon/>,
-                'Skills': <SkillsIcon/>,
-                'Contact': <ContactIcon/>
-              } [this.props.page]
-            }
-          </div>
-        )}
+        <div className="nav-bar-title" 
+          onMouseEnter={ this.toggleHover } 
+          onMouseLeave={ this.toggleHover }
+          style={ {display: (this.state.isHovered ? 'initial' : 'none')} }
+        >
+          { this.props.page }
+        </div>
+
+        <div 
+          className="nav-bar-icon" 
+          onMouseEnter={ this.toggleHover } 
+          onMouseLeave={ this.toggleHover }
+        >
+          { 
+            {
+              'Home': <HomeIcon width="4vw"/>,
+              'About': <AboutIcon width="4vw"/>,
+              'Skills': <SkillsIcon width="4vw"/>,
+              'Contact': <ContactIcon width="4vw"/>
+            } [this.props.page]
+          }
+        </div>
       </div>
     );
   }
