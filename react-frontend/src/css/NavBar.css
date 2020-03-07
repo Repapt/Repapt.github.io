@@ -35,10 +35,11 @@
 
 .nav-bar-title {
   position: absolute;
-  transform: translate(0, 0.5vw);
+  margin-top: 0.5vw;
   font-size: 2.5vw;
   padding: 0.5vw;
   background-color: #121212;
+  animation: slideIn 0.25s;
 }
 
 @keyframes glow {

@@ -23,6 +23,8 @@ class App extends React.Component{
             <NavLink className="nav-bar-item" to="/Personal-Site/skills"><NavBarItem page="Skills"/></NavLink>
             <NavLink className="nav-bar-item" to="/Personal-Site/contact"><NavBarItem page="Contact"/></NavLink>
           </div>
+          <div className="background">
+          </div>
           <div className="content">
             <Route exact path="/Personal-Site" component={ Home }/>
             <Route path="/Personal-Site/about" component={ About }/>
