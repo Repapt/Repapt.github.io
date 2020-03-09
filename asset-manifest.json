@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Personal-Site/static/css/main.4c6a46dd.chunk.css",
-    "main.js": "/Personal-Site/static/js/main.6ec12fba.chunk.js",
-    "main.js.map": "/Personal-Site/static/js/main.6ec12fba.chunk.js.map",
+    "main.css": "/Personal-Site/static/css/main.88bb6950.chunk.css",
+    "main.js": "/Personal-Site/static/js/main.d09a634d.chunk.js",
+    "main.js.map": "/Personal-Site/static/js/main.d09a634d.chunk.js.map",
     "runtime-main.js": "/Personal-Site/static/js/runtime-main.e16a28ef.js",
     "runtime-main.js.map": "/Personal-Site/static/js/runtime-main.e16a28ef.js.map",
-    "static/js/2.9876b7d8.chunk.js": "/Personal-Site/static/js/2.9876b7d8.chunk.js",
-    "static/js/2.9876b7d8.chunk.js.map": "/Personal-Site/static/js/2.9876b7d8.chunk.js.map",
+    "static/js/2.c3963e5b.chunk.js": "/Personal-Site/static/js/2.c3963e5b.chunk.js",
+    "static/js/2.c3963e5b.chunk.js.map": "/Personal-Site/static/js/2.c3963e5b.chunk.js.map",
     "index.html": "/Personal-Site/index.html",
-    "precache-manifest.8311c9bac1e4fe12eb50c72d0e08a81d.js": "/Personal-Site/precache-manifest.8311c9bac1e4fe12eb50c72d0e08a81d.js",
+    "precache-manifest.b5f157e681808aaa8b5f05695fb52d77.js": "/Personal-Site/precache-manifest.b5f157e681808aaa8b5f05695fb52d77.js",
     "service-worker.js": "/Personal-Site/service-worker.js",
-    "static/css/main.4c6a46dd.chunk.css.map": "/Personal-Site/static/css/main.4c6a46dd.chunk.css.map",
-    "static/js/2.9876b7d8.chunk.js.LICENSE.txt": "/Personal-Site/static/js/2.9876b7d8.chunk.js.LICENSE.txt",
+    "static/css/main.88bb6950.chunk.css.map": "/Personal-Site/static/css/main.88bb6950.chunk.css.map",
+    "static/js/2.c3963e5b.chunk.js.LICENSE.txt": "/Personal-Site/static/js/2.c3963e5b.chunk.js.LICENSE.txt",
     "static/media/about.a617dfb6.svg": "/Personal-Site/static/media/about.a617dfb6.svg",
     "static/media/contact.82189696.svg": "/Personal-Site/static/media/contact.82189696.svg",
     "static/media/home.fa2c07da.svg": "/Personal-Site/static/media/home.fa2c07da.svg",
+    "static/media/samuel.png": "/Personal-Site/static/media/samuel.59eb0f57.png",
     "static/media/skills.e8e8f759.svg": "/Personal-Site/static/media/skills.e8e8f759.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e16a28ef.js",
-    "static/js/2.9876b7d8.chunk.js",
-    "static/css/main.4c6a46dd.chunk.css",
-    "static/js/main.6ec12fba.chunk.js"
+    "static/js/2.c3963e5b.chunk.js",
+    "static/css/main.88bb6950.chunk.css",
+    "static/js/main.d09a634d.chunk.js"
   ]
 }
