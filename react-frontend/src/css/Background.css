@@ -1,0 +1,40 @@
+.background {
+  background: linear-gradient(171deg, #000000, #07252f, #094c63, #07252f, #000000);
+  height: 100vh;
+  background-size: 1000% 1000%;
+  -webkit-animation: gradient 40s ease infinite;
+  animation: gradient 40s ease infinite;
+
+  overflow: hidden;
+}
+
+@-webkit-keyframes gradient {
+  0%{background-position:38% 0%}
+  50%{background-position:63% 100%}
+  100%{background-position:38% 0%}
+}
+@keyframes gradient {
+  0%{background-position:38% 0%}
+  50%{background-position:63% 100%}
+  100%{background-position:38% 0%}
+}
+
+.dash {
+  background: rgba(46, 184, 232, 0.6);
+  position: absolute;
+  animation: move;
+  animation-timing-function: ease-out;
+  bottom: 0px;
+  opacity: 0;
+}
+
+@keyframes move {
+  0%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}

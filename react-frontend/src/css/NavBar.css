@@ -3,7 +3,7 @@
   height: 100%;   
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: #121212;
   position: fixed;
   z-index: 9999;
 }
@@ -40,6 +40,8 @@
   padding: 0.5vw;
   background-color: #121212;
   animation: slideIn 0.25s;
+  border: 3px solid #49a0be;
+  border-left: none;
 }
 
 @keyframes glow {

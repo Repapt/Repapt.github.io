@@ -1,11 +1,12 @@
 .content {
     padding: 1rem;
-    background-color: #555;
+    background-color: rgba(25, 25, 25, 0.7);
     color: #ddd;
-    margin: 10vh 0 0vh 5vw;
-    height: 80vh;
+    margin: 20vh 0 0vh 5vw;
+    height: 60vh;
     position: fixed;
     width: 100%;
+    overflow: hidden;
 }
 
 .page > *{
