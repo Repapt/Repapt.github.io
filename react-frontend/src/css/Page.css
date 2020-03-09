@@ -4,9 +4,10 @@
     color: #ddd;
     margin: 20vh 0 0vh 5vw;
     height: 60vh;
+    width: 95vw;
     position: fixed;
-    width: 100%;
     overflow: hidden;
+    z-index: 999;
 }
 
 .page > *{
@@ -14,7 +15,7 @@
     animation-duration: 0.5s;
     animation-timing-function: ease-in;
     animation-iteration-count: 1;
-    animation-direction: normal;
+    animation-direction: normal;    
 }
 
 .page *:nth-child(1) { animation-duration: 0.2s}
@@ -22,10 +23,30 @@
 .page *:nth-child(3) { animation-duration: 0.6s}
 .page *:nth-child(4) { animation-duration: 0.8s}
 
+.profile {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    animation: fadeIn 1s !important;
+}
+
+h1 {
+    font-size: 54px;
+}
+
 @keyframes slideIn {
     from {
         transform: translateX(-50%);
     } to {
         transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
     }
 }
