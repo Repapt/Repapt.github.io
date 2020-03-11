@@ -5,6 +5,10 @@
     margin: 20vh 0 0vh 5vw;
     height: 60vh;
     width: 95vw;
+
+    min-width: 1000px;
+    min-height: 400px;
+
     position: fixed;
     overflow: hidden;
     z-index: 999;

@@ -41,10 +41,10 @@ class NavBarItem extends React.Component {
         >
           { 
             {
-              'Home': <HomeIcon width="4vw"/>,
-              'About': <AboutIcon width="4vw"/>,
-              'Skills': <SkillsIcon width="4vw"/>,
-              'Contact': <ContactIcon width="4vw"/>
+              'Home': <HomeIcon/>,
+              'About': <AboutIcon/>,
+              'Skills': <SkillsIcon/>,
+              'Contact': <ContactIcon/>
             } [this.props.page]
           }
         </div>

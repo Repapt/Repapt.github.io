@@ -12,7 +12,7 @@ class Background extends React.Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(this.addDash, Math.random()*800)
+    this.interval = setInterval(this.addDash, Math.random()*800 + 500)
   }
 
   addDash() {

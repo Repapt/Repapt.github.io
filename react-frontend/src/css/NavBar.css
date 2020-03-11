@@ -6,6 +6,7 @@
   background-color: #121212;
   position: fixed;
   z-index: 9999;
+  min-width: 50px;
 }
 
 .nav-bar-item {
@@ -29,8 +30,9 @@
 }
 
 .nav-bar-icon {
-  margin: 0 0 0 0.5vw;
-  padding: 1vw 0;
+  margin: 20% 0 0 20%;
+  padding: 10% 0;
+  width: 60%;
 }
 
 .nav-bar-icon:hover {
@@ -39,10 +41,10 @@
 
 .nav-bar-title {
   position: absolute;
-  margin-top: 0.5vw;
-  font-size: 2.5vw;
+  margin-top: 10%;
+  font-size: 30px;
   font-weight: bold;
-  padding: 0.5vw;
+  padding: 10%;
   background-color: #121212;
   animation: slideIn 0.25s;
   border: 3px solid #49a0be;
@@ -51,8 +53,7 @@
 
 @keyframes glow {
   from {
-      text-shadow: 0 0 5px #49a0be, 0 0 15px #fff;
   } to {
-      text-shadow: 0 0 5px #6bc3e0, 0 0 10px #83d6f1, 0 0 20px #fff;
+      text-shadow: 0 0 2px #6bc3e0, 0 0 3px #83d6f1, 0 0 3px #fff;
   }
 }

@@ -9,6 +9,8 @@ class Home extends React.Component {
       <div className="page">
         <img className="profile" src={profile} alt="Profile"/>
         <h1>Hi, I'm Samuel.</h1>
+        <h2>I'm a Computer Engineering student</h2>
+        <h2>at the University of Waterloo.</h2>
       </div>
     );
   }
