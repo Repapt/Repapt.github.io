@@ -2,7 +2,7 @@
 	padding: 1rem;
 	background-color: rgba(25, 25, 25, 0.7);
 	color: #dddddd;
-	margin: 20vh 0 0vh 5vw;
+	margin: 20vh 0 0vh 4vw;
 	height: 60vh;
 	width: 95vw;
 
@@ -15,6 +15,7 @@
 }
 
 .text {
+	margin-top: 10px;
 	margin-left: 30px;
 }
 
@@ -23,7 +24,15 @@
 	animation-duration: 0.5s;
 	animation-timing-function: ease-in;
 	animation-iteration-count: 1;
-	animation-direction: normal;    
+	animation-direction: normal;
+}
+
+h1 {
+	margin-bottom: 10px;
+}
+
+h2 {
+	margin: 0;
 }
 
 .text *:nth-child(1) { animation-duration: 0.2s }
@@ -44,7 +53,7 @@ h1 {
 }
 
 .button {
-	margin: 20px 30px 10px 8%;
+	margin: 60px 30px 10px 30px;
 	padding: 5px 20px;
 	display: inline-block;
 	font-size: 28px;
