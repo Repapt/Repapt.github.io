@@ -1,12 +1,11 @@
 .nav-bar {
-  width: 4vw;
+  width: 4%;
   height: 100%;   
   margin: 0;
   padding: 0;
   background-color: #121212;
   position: fixed;
   z-index: 9999;
-  min-width: 50px;
 }
 
 .nav-bar-item {
