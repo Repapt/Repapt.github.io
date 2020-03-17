@@ -16,6 +16,10 @@
   padding: 2rem 0rem;
 }
 
+.nav-bar-item:first-child {
+  margin-top: 4rem;
+}
+
 .nav-bar-item:hover {
   animation: glow 1s ease-in-out 0s infinite alternate;
   transition: 0.5s;
@@ -27,10 +31,9 @@
 }
 
 .nav-bar-icon {
-  margin: 25% 0 0 25%;
+  margin: auto;
   padding: 5% 0;
-  width: 50%;
-  height: 50%;
+  width: 2rem;
 }
 
 .nav-bar-icon:hover {
