@@ -1,8 +1,8 @@
 .content {
 	background-color: rgba(25, 25, 25, 0.7);
 	color: #dddddd;
-	margin: 18vh 0 0 4vw;
-	height: 26em;
+	margin: 14vh 0 0 4vw;
+	height: 27em;
 	width: 96%;
 
 	min-width: 900px;
@@ -18,8 +18,8 @@
 }
 
 .text {
-	margin-top: 4.5rem;
-	margin-left: 4.5rem;
+	margin-top: 5rem;
+	margin-left: 5rem;
 }
 
 .text > *{
@@ -33,7 +33,15 @@
 h1 {
 	font-size: 3em;
 	margin: 0;
+}
+
+.title {
 	margin-bottom: 2rem;
+}
+
+.body {
+	margin: 0.5rem 0;
+	font-size: 0.9em;
 }
 
 h2 {
@@ -43,7 +51,12 @@ h2 {
 .text *:nth-child(1) { animation-duration: 0.2s }
 .text *:nth-child(2) { animation-duration: 0.4s }
 .text *:nth-child(3) { animation-duration: 0.6s }
-.text *:nth-child(4) { animation-duration: 0.8s }
+.text *:nth-child(4) { animation-duration: 0.7s }
+.text *:nth-child(5) { animation-duration: 0.8s }
+.text *:nth-child(6) { animation-duration: 0.85s }
+.text *:nth-child(7) { animation-duration: 0.9s }
+.text *:nth-child(8) { animation-duration: 0.95s }
+.text *:nth-child(9) { animation-duration: 1.0s }
 
 .profile {
 	position: absolute;
@@ -54,7 +67,7 @@ h2 {
 }
 
 .button {
-	margin: 2rem 0 0 4.5rem;
+	margin: 2rem 0 0 5rem;
 	padding: 0.4rem 1.6rem;
 	display: inline-block;
 	font-size: 1.5em;

@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <div className="page">
         <div className="text">
-          <h1>Hi, I'm Samuel.</h1>
+          <h1 className="title">Hi, I'm Samuel.</h1>
           <h2>I'm a Computer Engineering student</h2>
           <h2>at the University of Waterloo.</h2>
         </div>
