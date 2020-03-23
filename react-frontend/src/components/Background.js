@@ -15,14 +15,20 @@ class Background extends React.Component {
     this.interval = setInterval(this.addDash, Math.random()*800 + 500)
   }
 
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
   addDash() {
-    const speed = parseInt(Math.random()*10) + 1;
-    const position = parseInt(Math.random()*80) + 10;
-    const height = parseInt(Math.random()*100) + 25;
-    const width = parseInt(Math.random()*8) + 4;
-    this.setState(state => ({
-      dashes: [...state.dashes, [speed, position, height, width]]
-    }));
+    if(document.hasFocus()){
+      const speed = parseInt(Math.random()*10) + 1;
+      const position = parseInt(Math.random()*80) + 10;
+      const height = parseInt(Math.random()*100) + 25;
+      const width = parseInt(Math.random()*8) + 4;
+      this.setState(state => ({
+        dashes: [...state.dashes, [speed, position, height, width]]
+      }));
+  }
   }
 
   render() {

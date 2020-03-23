@@ -39,7 +39,7 @@ class NavBarItem extends React.Component {
           onMouseEnter={ this.toggleHover } 
           onMouseLeave={ this.toggleHover }
         >
-          { 
+          {
             {
               'Home': <HomeIcon/>,
               'About': <AboutIcon/>,

@@ -1,20 +1,22 @@
 import React from 'react';
 
+import about_profile from './../../res/samuel_about.png';
+
 class About extends React.Component {
   
   render() {
     return (
       <div className="page">
         <div className="text">
-          <h2 className="title">I've always been a profoundly passionate person.</h2>
-          <p className="body">As a kid, I loved puzzles. Countless hours of my childhood were spent playing with rubik's cubes,</p>
-          <p className="body">mystery novels, games - anything I could get my hands on. Going into High School, my puzzle-loving brain</p>
-          <p className="body">pushed me into computer science, where I became acquainted with the world of competitive programming.</p>
-          <p className="body">Today, I love making games, websites, or anything else that piques my interest. I enjoy swimming,</p>
-          <p className="body">basketball, cooking, guitar, and video games. I love listening to music (mostly rock, but I'll listen</p>
-          <p className="body"> to anything) and I'm a huge Marvel nerd. I'm an easy cry at the movies (especially if it's animated!)</p>
-          <p className="body">and I'm still mad about the final season of Game of Thrones.</p>
-          <p className="body">These passions have characterized my life - and now, I'm looking for the next one.</p>
+          <h2 className="title">I've always been driven by my passions.</h2>
+          <p className="body">Growing up, I loved solving puzzles, whether it be rubik's cubes, riddles, or some sort</p>
+          <p className="body">of video game. In high school, my passions shifted to a slightly different form of</p>
+          <p className="body">problem-solving: programming. I've worked with web design, algorithms/complexity,</p>
+          <p className="body">backend development, UI/UX, and machine learning. I enjoy swimming, basketball, cooking,</p>
+          <p className="body">and guitar. I'm always listening to music - it's usually rock, but I'll listen to anything.</p>
+          <p className="body">I'm an easy cry at the movies (especially if it's animated!) and I'm a huge Marvel nerd.</p>
+          <p className="body">These passions have characterized my life. Now, I'm looking for my next one.</p>
+          <img className="profile" src={about_profile} alt="Profile"></img>
         </div>
       </div>
     );

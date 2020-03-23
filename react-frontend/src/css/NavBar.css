@@ -21,13 +21,13 @@
 }
 
 .nav-bar-item:hover {
-  animation: glow 1s ease-in-out 0s infinite alternate;
+  animation: glow 2s ease-in-out 0s infinite alternate;
   transition: 0.5s;
 }
 
 .active {
   color: #49a0be;
-  animation: glow 1s ease-in-out 0s infinite alternate;
+  animation: glow 2s ease-in-out 0s infinite alternate;
 }
 
 .nav-bar-icon {
@@ -59,6 +59,6 @@
 @keyframes glow {
   from {
   } to {
-      text-shadow: 0 0 2px #6bc3e0, 0 0 3px #83d6f1, 0 0 3px #fff;
+      text-shadow: 0 0 2px #6bc3e0, 0 0 3px #83d6f1;
   }
 }

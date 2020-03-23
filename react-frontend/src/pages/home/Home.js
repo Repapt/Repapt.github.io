@@ -10,11 +10,11 @@ class Home extends React.Component {
       <div className="page">
         <div className="text">
           <h1 className="title">Hi, I'm Samuel.</h1>
-          <h2>I'm a Computer Engineering student</h2>
-          <h2>at the University of Waterloo.</h2>
+          <h3>I'm a Computer Engineering student</h3>
+          <h3>at the University of Waterloo.</h3>
         </div>
-        <a className="button" href={ resume } target="_blank">Resume</a>
-        <a className="button" href="https://www.github.com/Repapt" target="_blank">Github</a>
+        <a className="button" href={ resume } target="_blank" rel="noopener noreferrer">Resume</a>
+        <a className="button" href="https://www.github.com/Repapt" target="_blank" rel="noopener noreferrer">Github</a>
         <img className="profile" src={profile} alt="Profile"/>
       </div>
     );
