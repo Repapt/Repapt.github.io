@@ -3,6 +3,7 @@ import React from 'react';
 import { ReactComponent as HomeIcon } from './../res/home.svg';
 import { ReactComponent as AboutIcon } from './../res/about.svg';
 import { ReactComponent as SkillsIcon } from './../res/skills.svg';
+import { ReactComponent as ExperienceIcon } from './../res/experience.svg';
 import { ReactComponent as ContactIcon } from './../res/contact.svg';
 
 class NavBarItem extends React.Component {
@@ -44,6 +45,7 @@ class NavBarItem extends React.Component {
               'Home': <HomeIcon/>,
               'About': <AboutIcon/>,
               'Skills': <SkillsIcon/>,
+              'Experience': <ExperienceIcon/>,
               'Contact': <ContactIcon/>
             } [this.props.page]
           }
