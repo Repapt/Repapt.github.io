@@ -6,7 +6,7 @@ class Contact extends React.Component {
     return (
       <div className="page">
         <div className="text">
-          <h1>How to reach me.</h1>
+          <h2>How to reach me.</h2>
         </div>
       </div>
     );

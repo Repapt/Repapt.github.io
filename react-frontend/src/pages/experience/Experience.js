@@ -6,7 +6,7 @@ class Experience extends React.Component {
     return (
       <div className="page">
         <div className="text">
-          <h1>Experience</h1>
+          <h2>Experience</h2>
         </div>
       </div>
     );

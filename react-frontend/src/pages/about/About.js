@@ -7,8 +7,8 @@ class About extends React.Component {
   render() {
     return (
       <div className="page">
-        <div id="about-text" className="text">
-          <h2 className="title">I've always been driven by my passions.</h2>
+        <div className="text">
+          <h2>I've always been driven by my passions.</h2>
           <p className="body">As a kid, I loved solving puzzles. Rubik's cubes and crosswords were among my favourites. Going</p>
           <p className="body">into high school, I still loved puzzles but the problems I was solving were no longer found on the</p>
           <p className="body">backs of newspapers, and the solutions were written in lines of Java. Today, I love web design, making</p>
