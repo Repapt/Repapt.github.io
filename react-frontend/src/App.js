@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, NavLink, Route } from 'react-router-dom';
 
+import { ReactComponent as Logo } from './res/logo_sl.svg';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Skills from './pages/skills/Skills';
@@ -21,6 +22,7 @@ class App extends React.Component{
       <BrowserRouter>
         <div className="app">
           <div className="nav-bar">
+            <NavLink exact to="/Personal-Site"><Logo className="logo" fill="white"/></NavLink>
             <NavLink exact className="nav-bar-item" to="/Personal-Site"><NavBarItem page="Home"/></NavLink>
             <NavLink className="nav-bar-item" to="/Personal-Site/about"><NavBarItem page="About"/></NavLink>
             <NavLink className="nav-bar-item" to="/Personal-Site/skills"><NavBarItem page="Skills"/></NavLink>

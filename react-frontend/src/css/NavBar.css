@@ -13,11 +13,11 @@
   list-style: none;
   color: #ddd;
   text-decoration: none;
-  padding: 2rem 0rem;
+  padding: 1.5rem 0rem;
 }
 
-.nav-bar-item:first-child {
-  margin-top: 4rem;
+.nav-bar-item:nth-child(2) {
+  margin-top: 14vh;
 }
 
 .nav-bar-item:hover {
@@ -34,14 +34,11 @@
   margin: auto;
   padding: 5% 0;
   width: 2rem;
+  height: 2rem;
 }
 
 .nav-bar-icon:hover {
   opacity: 0;
-}
-
-.nav-bar-title:hover {
-  cursor: pointer;
 }
 
 .nav-bar-title {
