@@ -9,6 +9,8 @@ class Skills extends React.Component {
           <h2 className="skills-title">Skills</h2>
           <div className="category">
             <h4>Languages:</h4>
+            <p>Python, Java, C++, C, HTML, CSS, JavaScript</p>
+            {/*
             <div className="skill">Python</div>
             <div className="skill">Java</div>
             <div className="skill">C++</div>
@@ -16,6 +18,7 @@ class Skills extends React.Component {
             <div className="skill">HTML</div>
             <div className="skill">CSS</div>
             <div className="skill">JavaScript</div>
+            */}
           </div>
           <div className="category">
             <h4>Frameworks/Libraries: </h4>

@@ -22,7 +22,7 @@ class App extends React.Component{
       <BrowserRouter>
         <div className="app">
           <div className="nav-bar">
-            <NavLink exact to="/Personal-Site"><Logo className="logo" fill="white"/></NavLink>
+            <NavLink exact className="nav-bar-item" to="/Personal-Site"><div className="logo"><Logo/></div></NavLink>
             <NavLink exact className="nav-bar-item" to="/Personal-Site"><NavBarItem page="Home"/></NavLink>
             <NavLink className="nav-bar-item" to="/Personal-Site/about"><NavBarItem page="About"/></NavLink>
             <NavLink className="nav-bar-item" to="/Personal-Site/skills"><NavBarItem page="Skills"/></NavLink>

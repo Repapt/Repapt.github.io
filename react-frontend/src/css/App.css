@@ -10,15 +10,3 @@ html, body {
     display: table-cell;
     vertical-align: middle;
 }
-
-.logo path{
-    fill: white;
-}
-
-.logo {
-    margin: auto;
-    margin-top: 0.75rem;
-    margin-left: 0.4rem;
-    padding: 0;
-    position: fixed;
-}

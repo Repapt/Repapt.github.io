@@ -13,11 +13,11 @@
   list-style: none;
   color: #ddd;
   text-decoration: none;
-  padding: 1.5rem 0rem;
+  padding: 0rem 0rem 3rem 0rem;
 }
 
 .nav-bar-item:nth-child(2) {
-  margin-top: 14vh;
+  margin-top: 10vh;
 }
 
 .nav-bar-item:hover {
@@ -33,12 +33,25 @@
 .nav-bar-icon {
   margin: auto;
   padding: 5% 0;
-  width: 2rem;
-  height: 2rem;
+  width: 60%;
 }
 
 .nav-bar-icon:hover {
   opacity: 0;
+}
+
+.logo path{
+  fill: #ddd;
+}
+
+.logo {
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-left: 0.4%;
+  width: 4%;
+  height: 4%;
+  padding: 0;
+  position: fixed;
 }
 
 .nav-bar-title {
