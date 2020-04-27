@@ -48,8 +48,10 @@ h2 {
 }
 
 .body {
-	margin: 0.25rem 0 0.25rem 2rem;
+	margin: 0.25rem 0 0 2rem;
+	line-height: 1.5rem;
 	font-size: 0.90em;
+	width: 37rem;
 }
 
 h3 {
@@ -113,8 +115,66 @@ h4 {
 	margin: 0;
 }
 
-.category > *{
+.category > * {
 	display: inline-block;
+}
+
+input, textarea {
+	display: block;
+	width: 25.7rem;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	color: #dddddd;
+	background-color: rgba(25,25,25,0);
+	border: 0.1rem solid #828282;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+#name, #email {
+	display: inline-block;
+	width: 12rem;
+	margin-right: 0.5rem;
+}
+
+.space {
+	width: 0;
+}
+
+#message {
+	height: 4rem;
+	resize: none;
+	font-family: "Oxygen", "Segoe UI", "Brandon Grotesque", "Ubuntu", sans-serif;
+}
+
+.contact-title {
+	margin-bottom: 1rem;
+}
+
+.contact-button {
+	margin-top: 0.5rem;
+	padding: 0.4rem 1.6rem;
+	display: inline-block;
+	font-weight: bold;
+	border: 0.1rem solid #49a0be;
+	color: #49a0be;
+	animation: fadeIn 1s;
+}
+
+.contact-button:hover {
+	background-color: #49a0be;
+	color: rgb(25, 25, 25);
+	cursor: pointer;
+}
+
+.contact-options {
+	display: inline-flex;
+}
+
+.socials {
+	margin-left: 5rem;
 }
 
 @keyframes slideIn {
