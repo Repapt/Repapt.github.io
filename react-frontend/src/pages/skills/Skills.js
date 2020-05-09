@@ -1,5 +1,7 @@
 import React from 'react';
 
+import skills_back from './../../res/skills_back.png';
+
 class Skills extends React.Component {
 
   render() {
@@ -33,6 +35,7 @@ class Skills extends React.Component {
             <p>REST APIs, Linux, Windows OS, Adobe Creative Suite, Microsoft Office</p>
           </div>
         </div>
+        <img className="profile" src={skills_back} alt="Profile"></img>
       </div>
     );
   }
