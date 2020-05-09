@@ -177,6 +177,17 @@ input:focus, textarea:focus {
 	margin-left: 5rem;
 }
 
+.social-icon {
+	width: 4rem;
+	height: 4rem;
+	color: #dddddd;
+}
+
+.socials a {
+	display: inline-flex;
+	margin: 1rem 1.5rem 0 1rem;	
+}
+
 @keyframes slideIn {
 	from {
 		transform: translateX(-50%);

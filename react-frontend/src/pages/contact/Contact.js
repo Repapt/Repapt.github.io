@@ -1,5 +1,10 @@
 import React from 'react';
 
+import { ReactComponent as InstagramIcon } from './../../res/instagram.svg';
+import { ReactComponent as FacebookIcon } from './../../res/facebook.svg';
+import { ReactComponent as LinkedinIcon } from './../../res/linkedin.svg';
+
+
 class Contact extends React.Component {
 
   constructor(props) {
@@ -12,6 +17,7 @@ class Contact extends React.Component {
     };
     this.handleEntry = this.handleEntry.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.verify = this.verify.bind(this);
   }
 
   handleEntry(event) {
@@ -26,17 +32,37 @@ class Contact extends React.Component {
   handleSubmit() {
     const template_id = "personal_website";
     const variables = this.state;
-    window.emailjs.send(
-      'gmail',
-      template_id,
-      variables
-    ).then(res => {
-      if(res.ok){
-        alert("Message successfully sent!")
-      } else {
-        throw Error("Message failed to send.")
-      }
-    }).catch(alert)
+    if(this.verify(variables)) {
+      window.emailjs.send(
+        'gmail',
+        template_id,
+        variables
+      ).then(res => {
+        if(res.status === 200){
+          alert("Message successfully sent!")
+          this.setState({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          })
+        } else {
+          throw Error("Message failed to send.")
+        }
+      }).catch(alert)
+    }
+  }
+
+  verify(variables) {
+    if(variables["name"] === "") {
+      alert("Please enter a name.")
+      return false;
+    } else if(variables["message"] === "") {
+      alert("Please enter a message.")
+      return false;
+    } else {
+      return true;
+    }
   }
 
   render() {
@@ -83,6 +109,9 @@ class Contact extends React.Component {
             </div>
             <div className="socials">
               <h4>Or DM me on any of these social media platforms:</h4>
+              <a href="https://www.instagram.com/smu.liu/" target="_blank" rel="noopener noreferrer"><div className="social-icon"><InstagramIcon/></div></a>
+              <a href="https://www.facebook.com/Repapt/" target="_blank" rel ="noopener noreferrer"><div className="social-icon"><FacebookIcon/></div></a>
+              <a href="https://www.linkedin.com/in/samuel-liu-8353a819b/" target="_blank" rel="noopener noreferrer"><div className="social-icon"><LinkedinIcon/></div></a>
             </div>  
           </div>      
         </div>

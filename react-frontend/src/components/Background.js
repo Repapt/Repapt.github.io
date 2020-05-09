@@ -36,6 +36,7 @@ class Background extends React.Component {
       <div className="background">
         {this.state.dashes.map(dash => (
           <div 
+            key={dash}
             className="dash"
             style={
               {
@@ -45,7 +46,7 @@ class Background extends React.Component {
                 width: dash[3] + 'px',
               }
             }
-          ></div>
+          >&nbsp;</div>
         ))}
       </div>
     );
