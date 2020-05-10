@@ -121,12 +121,20 @@ h4 {
 
 input, textarea {
 	display: block;
-	width: 25.7rem;
-	margin-top: 0.5rem;
-	padding: 0.5rem;
+	width: 25.8rem;
+	margin-top: 0.6rem;
+	padding: 0.6rem;
 	color: #dddddd;
-	background-color: rgba(25,25,25,0);
-	border: 0.1rem solid #828282;
+	background-color: rgba(45,45,45,0.7);
+	border: none;
+}
+
+::placeholder {
+	color: #606060;
+}
+
+:-ms-input-placeholder {
+	color: #606060;
 }
 
 input:focus, textarea:focus {
@@ -136,7 +144,7 @@ input:focus, textarea:focus {
 #name, #email {
 	display: inline-block;
 	width: 12rem;
-	margin-right: 0.5rem;
+	margin-right: 0.6rem;
 }
 
 .space {
@@ -154,7 +162,7 @@ input:focus, textarea:focus {
 }
 
 .contact-button {
-	margin-top: 0.5rem;
+	margin-top: 0.6rem;
 	padding: 0.4rem 1.6rem;
 	display: inline-block;
 	font-weight: bold;

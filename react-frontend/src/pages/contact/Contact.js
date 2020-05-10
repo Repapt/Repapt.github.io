@@ -4,6 +4,7 @@ import { ReactComponent as InstagramIcon } from './../../res/instagram.svg';
 import { ReactComponent as FacebookIcon } from './../../res/facebook.svg';
 import { ReactComponent as LinkedinIcon } from './../../res/linkedin.svg';
 
+import about_back from './../../res/about_back.png';
 
 class Contact extends React.Component {
 
@@ -115,6 +116,7 @@ class Contact extends React.Component {
             </div>  
           </div>      
         </div>
+        <img className="profile" src={about_back} alt="Profile"></img>
       </div>
     );
   }
