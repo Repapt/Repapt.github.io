@@ -10,9 +10,9 @@ class About extends React.Component {
         <div className="text">
           <h2>I've always been a passionate person.</h2>
           <p className="body">
-            As a kid, I was obsessed with puzzles. It started off with the rubik's cube, but I quickly expanded my horizons
-            to include all kinds of puzzles. There was, however, one kind in particular that
-            I found myself gravitating towards - it just so happens that they were all written in lines of code.
+            As a kid, I was obsessed with puzzles. Countless hours of my childhood were spent playing with Rubik's Cubes,
+            escape rooms, certain video games - anything I could get my hands on. Going into high school, my puzzle-loving
+            brain pushed me to take a computer science course, where I became acquainted with the world of competitive programming.
             I've wanted to be a programmer ever since. Today, I love web
             design, making games, backend development, and machine learning. My free time is spent on TV shows,
             swimming, cooking, and playing guitar. I'm an easy cry at the movies (especially if it's animated!)
