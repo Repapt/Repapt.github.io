@@ -10,6 +10,7 @@ import Contact from './pages/contact/Contact';
 import NavBarItem from './components/NavBarItem';
 import Background from './components/Background';
 
+//test
 
 import './css/App.css'
 import './css/Page.css'
