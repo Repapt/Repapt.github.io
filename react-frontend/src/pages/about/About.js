@@ -17,6 +17,7 @@ class About extends React.Component {
             I spend my free time on TV shows,
             video games, swimming, cooking, and playing guitar. I'm a sucker for animated movies,
             and I'm kind of a Marvel nerd.
+            TEST TEST TEST
           </p>
           <img className="profile" src={about_profile} alt="Profile"></img>
         </div>
