@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, NavLink, Route } from 'react-router-dom';
+import {HashRouter, NavLink, Route } from 'react-router-dom';
 
 import { ReactComponent as Logo } from './res/logo_sl.svg';
 import Home from './pages/home/Home';
@@ -20,7 +20,7 @@ import './css/Background.css'
 class App extends React.Component{
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="app">
           <div className="nav-bar">
             <NavLink exact className="nav-bar-item" to="/Personal-Site"><div className="logo"><Logo/></div></NavLink>
@@ -37,7 +37,7 @@ class App extends React.Component{
           </div>
           <Background/>
         </div>  
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }
