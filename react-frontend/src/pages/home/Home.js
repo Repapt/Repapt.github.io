@@ -1,7 +1,7 @@
 import React from 'react';
 
 import profile from './../../res/samuel.png';
-import resume from './../../res/resume.pdf';
+import resume from './../../res/resume2.pdf';
 
 class Home extends React.Component {
 

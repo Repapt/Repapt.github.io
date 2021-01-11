@@ -11,7 +11,7 @@ class Skills extends React.Component {
           <h2 className="skills-title">Skills</h2>
           <div className="category">
             <h4>Languages:</h4>
-            <p>Python, Java, C++, C, HTML, CSS, JavaScript</p>
+            <p>Python, Java, C++, C#, HTML, CSS, JavaScript</p>
             {/*
             <div className="skill">Python</div>
             <div className="skill">Java</div>
@@ -24,15 +24,15 @@ class Skills extends React.Component {
           </div>
           <div className="category">
             <h4>Frameworks/Libraries: </h4>
-            <p>ReactJS, Flask, PostgreSQL, MySQL, JavaFX, Java Swing</p>
+            <p>ReactJS, Flask, PostgreSQL, MySQL, JavaFX, Java Swing, </p>
           </div>
           <div className="category">
             <h4>Tools: </h4>
-            <p>Version Control (Git), Scripting (Bash, Powershell), Jira</p>
+            <p>Version Control (Git, Perforce), Scripting (Bash, Powershell), Jira, JMeter, Jenkins</p>
           </div>
           <div className="category">
             <h4>Other: </h4>
-            <p>REST APIs, Linux, Windows OS, Adobe Creative Suite, Microsoft Office</p>
+            <p>Unity, REST APIs, Linux, Windows OS, Adobe Creative Suite, Microsoft Office</p>
           </div>
         </div>
         <img className="profile" src={skills_back} alt="Profile"></img>
